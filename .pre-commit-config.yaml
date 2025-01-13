@@ -8,7 +8,7 @@ repos:
     -   id: absolufy-imports
         name: absolufy-imports
 -   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.6.0
+    rev: v5.0.0
     hooks:
     -   id: trailing-whitespace
         language_version: python3
@@ -20,11 +20,11 @@ repos:
     -   id: debug-statements
         language_version: python3
 -   repo: https://github.com/pappasam/toml-sort
-    rev: v0.23.1
+    rev: v0.24.2
     hooks:
      - id: toml-sort-fix
 -   repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.4.3
+    rev: v0.9.1
     hooks:
       -  id: ruff
          args: [ --fix ]
